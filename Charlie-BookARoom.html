@@ -1,0 +1,148 @@
+<!-- Marie Battle
+Joshua Hamm
+Erik Hernandez
+Kody Pope
+9-21-24 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Room</title>
+    <link rel="stylesheet" href="Charlie-bookaroomstyles.css">
+     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+    </style>
+
+</head>
+<body>
+
+
+
+ <!-- Header with Login, Register, Contact Us -->
+    <!-- <div class="header">
+        
+            
+    </div> -->
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="menu">
+            <a href="frontendbackend update Joshua Hamm/html/Charlie-landingPPAGe.html">
+                <img src="images/2DALL·E 2024-08-18 12.27.49 - A simple and elegant logo for 'Moffat Bay Lodge.' The logo should feature a clean and minimalist design with the name 'Moffat Bay Lodge' prominently d.jpeg" alt="Moffat Bay Lodge Logo">
+            </a>
+            <div class="nav-links">
+                <!-- <a href="#">Accommodations</a> -->
+                <a href="Joshua_Attractions/Charlie-Attractions.html">Attractions</a>
+                <a href="build/Charlie-Construction.html">Photo Gallery</a>            
+                <a href="files-from-marie/Charlie-aboutUs1.html">Contact Us</a>
+                            <a href="reservations-lookup/reservation-backend/public/Charlie-LookUpReservation.html">Look Up Reservation</a>
+
+
+            </div>
+            <div class="nav-links">
+            <a href="Login UX/Charlie-login.html" class="btn">Login</a>
+            <a href="Registration Page UX/Charlie-customer_registration.html" class="btn">Register</a>
+            <a href="frontendbackend update Joshua Hamm/html/Charlie-landingPPAGe.html" class="btn">Cancel</a></div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="booking-container">
+        <h1 class="booking-title">Book a Room</h1>
+
+        <!-- Date and Guest Selection (Maintaining original design) -->
+        <div class="selection-container">
+            <div class="input-group">
+                <label for="checkin-date">Check-in Date:</label>
+                <input type="date" id="checkin-date" name="checkin-date">
+            </div>
+            <div class="input-group">
+                <label for="checkout-date">Check-out Date:</label>
+                <input type="date" id="checkout-date" name="checkout-date">
+            </div>
+            <div class="input-group">
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1" max="10">
+            </div>
+        </div>
+
+        <!-- Room Option 1 -->
+        <div class="room-container" data-room="Double Full Room" data-price="115" data-description="A room with two full-sized beds, perfect for families or small groups." data-image="image1.jpg">
+            <img src="image1.jpg" alt="Double Full Room" class="room-image">
+            <div class="room-details">
+                <h2>Double Full Room</h2>
+                <hr class="divider">
+                <p class="description">A room with two full-sized beds, perfect for families or small groups.</p>
+                <p class="price-info"><strong>Price per Night:</strong> $115</p>
+                <button class="book-now-button">Book Now</button>
+            </div>
+        </div>
+
+        <!-- Room Option 2 -->
+        <div class="room-container" data-room="Queen Room" data-price="130" data-description="A cozy room featuring a queen-sized bed, ideal for couples." data-image="image2.jpg">
+            <img src="image2.jpg" alt="Queen Room" class="room-image">
+            <div class="room-details">
+                <h2>Queen Room</h2>
+                <hr class="divider">
+                <p class="description">A cozy room featuring a queen-sized bed, ideal for couples.</p>
+                <p class="price-info"><strong>Price per Night:</strong> $130</p>
+                <button class="book-now-button">Book Now</button>
+            </div>
+        </div>
+
+        <!-- Room Option 3 -->
+        <div class="room-container" data-room="Double Queen Room" data-price="145" data-description="A spacious room with two queen-sized beds for added comfort." data-image="image3.jpg">
+            <img src="image3.jpg" alt="Double Queen Room" class="room-image">
+            <div class="room-details">
+                <h2>Double Queen Room</h2>
+                <hr class="divider">
+                <p class="description">A spacious room with two queen-sized beds for added comfort.</p>
+                <p class="price-info"><strong>Price per Night:</strong> $145</p>
+                <button class="book-now-button">Book Now</button>
+            </div>
+        </div>
+
+        <!-- Room Option 4 -->
+        <div class="room-container" data-room="Luxury Suite" data-price="155" data-description="Our Luxury Suite offers top-tier amenities including a private jacuzzi and lounge area." data-image="image4.jpg">
+            <img src="image4.jpg" alt="Luxury Suite" class="room-image">
+            <div class="room-details">
+                <h2>Luxury Suite</h2>
+                <hr class="divider">
+                <p class="description">Our Luxury Suite offers top-tier amenities including a private jacuzzi and lounge area.</p>
+                <p class="price-info"><strong>Price per Night:</strong> $155</p>
+                <button class="book-now-button">Book Now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include JavaScript for saving data -->
+    <script src="Charlie-script.js"></script>
+
+
+
+    <!-- Footer Links and Copyright -->
+    <!-- <div class="footer">
+        <div class="first">
+            <a href="#">Accommodations</a>
+            <a href="Joshua_Attractions/Charlie-Attractions.html">Attractions</a>
+            <a href="build/Charlie-Construction.html">Photo Gallery</a>
+            <a href="files-from-marie/Charlie-aboutUs1.html">About Us</a>
+            <a href="#">Events</a>
+        </div> -->
+        <div class="names">
+            <p class="font1">© 2024; Designed by <span class="comfortaa-font2">Team Charlie</span></p>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+</html>
